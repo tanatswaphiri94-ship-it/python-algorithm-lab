@@ -1,0 +1,25 @@
+students ={}
+number_students = int(input('num: '))
+while True:
+    total = 0
+    student_name = input ('name:or "done" to exit')
+    scores = int (input('score:'))
+    students = {student_name : scores}
+    print(students)
+
+
+# while True :
+#     score = float(input('enter score'))
+#     if score >= 0 and score <=100:
+#         print('correct')
+#         break
+#     else:
+#         print('invalid score')    
+
+
+
+    
+
+
+
+
